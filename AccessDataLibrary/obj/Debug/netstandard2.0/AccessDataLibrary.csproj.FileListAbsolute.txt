@@ -1,0 +1,9 @@
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/obj/Debug/netstandard2.0/AccessDataLibrary.csprojAssemblyReference.cache
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/obj/Debug/netstandard2.0/AccessDataLibrary.AssemblyInfoInputs.cache
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/obj/Debug/netstandard2.0/AccessDataLibrary.AssemblyInfo.cs
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/obj/Debug/netstandard2.0/AccessDataLibrary.csproj.CoreCompileInputs.cache
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/bin/Debug/netstandard2.0/AccessDataLibrary.deps.json
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/bin/Debug/netstandard2.0/AccessDataLibrary.dll
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/bin/Debug/netstandard2.0/AccessDataLibrary.pdb
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/obj/Debug/netstandard2.0/AccessDataLibrary.dll
+/home/arnold/Desktop/ServerMock/AccessDataLibrary/obj/Debug/netstandard2.0/AccessDataLibrary.pdb

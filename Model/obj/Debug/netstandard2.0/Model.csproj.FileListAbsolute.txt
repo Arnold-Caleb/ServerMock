@@ -1,0 +1,9 @@
+/home/arnold/Desktop/ServerMock/Model/bin/Debug/netstandard2.0/Model.deps.json
+/home/arnold/Desktop/ServerMock/Model/bin/Debug/netstandard2.0/Model.dll
+/home/arnold/Desktop/ServerMock/Model/bin/Debug/netstandard2.0/Model.pdb
+/home/arnold/Desktop/ServerMock/Model/obj/Debug/netstandard2.0/Model.csprojAssemblyReference.cache
+/home/arnold/Desktop/ServerMock/Model/obj/Debug/netstandard2.0/Model.AssemblyInfoInputs.cache
+/home/arnold/Desktop/ServerMock/Model/obj/Debug/netstandard2.0/Model.AssemblyInfo.cs
+/home/arnold/Desktop/ServerMock/Model/obj/Debug/netstandard2.0/Model.csproj.CoreCompileInputs.cache
+/home/arnold/Desktop/ServerMock/Model/obj/Debug/netstandard2.0/Model.dll
+/home/arnold/Desktop/ServerMock/Model/obj/Debug/netstandard2.0/Model.pdb

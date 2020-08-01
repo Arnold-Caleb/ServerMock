@@ -8,8 +8,9 @@ using Model;
 
 namespace ServerMock
 {
-    public class Helpers
+    class Helpers
     {   
+        DataAccess _data = new DataAccess();
         public string connectionString = "Server=db4free.net,3306;Database=gamers_server;User Id=arnold; Password=Arn0ld!nsql";
 
         List<LoginModel> loginInfo;
@@ -21,7 +22,7 @@ namespace ServerMock
         {
             string sql = "select * from LoginTable";
 
-            loginInfo = await DataAccess.LoadData<LoginModel, dynamic>(sql, new { }, connectionString);
+            loginInfo = await _data.LoadData<LoginModel, dynamic>(sql, new { }, connectionString);
 
             return loginInfo;
         }
@@ -30,7 +31,7 @@ namespace ServerMock
         {
             string sql = "select * from Personnel";
 
-            personnelInfo = await DataAccess.LoadData<PersonnelModel, dynamic>(sql, new { }, connectionString);
+            personnelInfo = await _data.LoadData<PersonnelModel, dynamic>(sql, new { }, connectionString);
 
             return personnelInfo;
         } 
@@ -40,7 +41,7 @@ namespace ServerMock
         {
             string sql = "insert into LoginTable (FullName, AccessType, TotalAlerts, HandledAlerts, MissedAlerts, Language) values (@FullName, @AccessType, @TotalAlerts, @HandledAlerts, @MissedAlerts, @Language)";
 
-            await DataAccess.SaveData(sql, 
+            await _data.SaveData(sql, 
                             new { 
                                 FullName=fullName, 
                                 AccessType=accessType, 
@@ -57,7 +58,7 @@ namespace ServerMock
         {
             string sql = "insert into Personnel (Name, Role, Email, Phone, filepath) values (@Name, @Role, @Email, @Phone, @filepath)";
 
-            await DataAccess.SaveData(sql, 
+            await _data.SaveData(sql, 
                             new { 
                                 Name=name, 
                                 Role=role, 
@@ -74,7 +75,7 @@ namespace ServerMock
         {
             string sql = "update LoginTable set FullName = @FullName where AccessType = @AccessType";
 
-            await DataAccess.SaveData(sql, 
+            await _data.SaveData(sql, 
                             new { FullName=fullName, AccessType=accessType }, 
                             connectionString);
 
@@ -84,7 +85,7 @@ namespace ServerMock
         {
             string sql = "update Personnel set Name = @Name where Role=@Role";
 
-            await DataAccess.SaveData(sql, 
+            await _data.SaveData(sql, 
                             new { Name=name, Role=role }, 
                             connectionString);
 
@@ -95,7 +96,7 @@ namespace ServerMock
         {
             string sql = "delete from LoginTable where FullName = @FullName";
 
-            await DataAccess.SaveData(sql, 
+            await _data.SaveData(sql, 
                             new { FullName=fullName }, 
                             connectionString);
 
@@ -105,7 +106,7 @@ namespace ServerMock
         {
             string sql = "delete from Personnel where Name = @Name";
 
-            await DataAccess.SaveData(sql, 
+            await _data.SaveData(sql, 
                             new { Name=name }, 
                             connectionString);
 

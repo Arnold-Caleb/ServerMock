@@ -9,9 +9,9 @@ using Dapper;
 
 namespace AccessDataLibrary
 {
-    public static class DataAccess
+    class DataAccess
     {
-        public static async Task<List<T>> LoadData<T, U>(string sql, U parameters, string connectionString)
+        public async Task<List<T>> LoadData<T, U>(string sql, U parameters, string connectionString)
         {
             using (IDbConnection connection = new MySqlConnection(connectionString))
             {
@@ -21,11 +21,11 @@ namespace AccessDataLibrary
             }
         }
 
-        public static void SaveData<U>(string sql, U parameters, string connectionString)
+        public Task SaveData<U>(string sql, U parameters, string connectionString)
         {
             using (IDbConnection connection = new MySqlConnection(connectionString))
             {
-                connection.ExecuteAsync(sql, parameters);
+                return connection.ExecuteAsync(sql, parameters);
             }
         }
 

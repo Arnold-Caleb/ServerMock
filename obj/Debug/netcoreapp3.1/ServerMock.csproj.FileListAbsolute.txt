@@ -1,0 +1,4 @@
+/home/arnold/Desktop/ServerMock/obj/Debug/netcoreapp3.1/ServerMock.csprojAssemblyReference.cache
+/home/arnold/Desktop/ServerMock/obj/Debug/netcoreapp3.1/ServerMock.AssemblyInfoInputs.cache
+/home/arnold/Desktop/ServerMock/obj/Debug/netcoreapp3.1/ServerMock.AssemblyInfo.cs
+/home/arnold/Desktop/ServerMock/obj/Debug/netcoreapp3.1/ServerMock.csproj.CoreCompileInputs.cache
