@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BhZVJL8BJy9CJvrDNRMXJi0NF11GgkjZ3LVxo2Sl5ioKyxZrbNsd1it33lytrs3Oco9K51ENsu3j6PSUKHjWMg==",
+  "success": true,
+  "projectFilePath": "/home/arnold/Desktop/ServerMock/AccessDataLibrary/AccessDataLibrary.csproj",
+  "expectedPackageFiles": [
+    "/home/arnold/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/arnold/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
